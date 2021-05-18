@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Your Love</title>
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    
 </head>
 <body>
-    <div class="header">
+    <div id="header">
         <h1>Find Your Love</h1>
     </div>
     <div class="main">
@@ -21,6 +21,8 @@
                 <option value="M" >Male</option>
             </select>
         </div>
+
+
         <div class="row">
             <label for="">Hobbies</label>
             <input type="text " id="hobby"/>
@@ -28,7 +30,82 @@
         <div class="row">
             <button id="searchBtn" >Search</button>
         </div>
-        <div id="results" ></div>
+        <div id="results" >
+            <div class="person-row">
+                <img src="./images/avatar1.webp" />
+                <div class="person-info">
+                    <div>Katy</div>
+                    <div>Music, Sports</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="./images/avatar2.jpg" />
+                <div class="person-info">
+                    <div>Danny</div>
+                    <div>Music, Bible, Sports, Movies</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="./images/avatar3.webp" />
+                <div class="person-info">
+                    <div>Eli</div>
+                    <div>Music, Bible, Sports, Movies</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="images/avatar4.jpg" />
+                <div class="person-info">
+                    <div>Per</div>
+                    <div>Music, Movies</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="./images/avatar5.png" />
+                <div class="person-info">
+                    <div>Shania</div>
+                    <div>Music, Sports, Movies</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="images/avatar6.jpg" />
+                <div class="person-info">
+                    <div>Marky</div>
+                    <div>Music</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="images/avatar7.jpg" />
+                <div class="person-info">
+                    <div>Jaimes</div>
+                    <div>Bible</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+            <div class="person-row">
+                <img src="./images/avatar8.svg" />
+                <div class="person-info">
+                    <div>Ellen</div>
+                    <div>Bible</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+
+            <div class="person-row">
+                <img src="images/avatar9.png" />
+                <div class="person-info">
+                    <div>Marty</div>
+                    <div>Sports</div>
+                </div>
+                <button>Add as friend</button>
+            </div>
+
+        </div>
 
 
     </div>

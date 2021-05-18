@@ -1,4 +1,46 @@
 body{
-    font-family: roboto;
+    font-family: helvetica;
 }
 
+#header{
+    margin-top: 0px;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    background: #0039cb;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+.row{
+    margin: 10px 20px;
+}
+
+#results{
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row{
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    float: left;
+    background-color: #2962ff;
+}
+
+.person-row img{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.person-row > button {
+    float: right;
+}
