@@ -101,6 +101,8 @@ window.addEventListener('load', () => {
     let results = document.getElementById('results');
     let searchBtn = document.getElementById('searchBtn');
     searchBtn.addEventListener('click', search );
-
+    search();
 });
+
+
 

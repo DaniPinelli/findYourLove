@@ -62,11 +62,20 @@ h1{
     color: white;
     font-weight: bold;
     border-radius: 3px;
+    border:0;
 }
 
 .please{
     color: blue;
     font-weight: bold;
+}
+
+.searchBtn{
+    background: #81c784;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border:0;
 }
 
 .foot{
