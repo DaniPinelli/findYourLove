@@ -3,55 +3,64 @@ let users = [
         name:'Katy',
         gender: 'F',
         hobby: 'Movies',
-        avatar: './images/avatar1.webp'
+        avatar: './images/avatar1.webp',
+        cellphone:'555-896584'
     },
     {
         name:'Danny',
         gender: 'M',
         hobby: 'Sports',
-        avatar: './images/avatar2.jpg'
+        avatar: './images/avatar2.jpg',
+        cellphone:'555-895822'
     },
     {
         name:'Eli',
         gender: 'F',
         hobby: 'Bible',
-        avatar: './images/avatar3.webp'
+        avatar: './images/avatar3.webp',
+        cellphone:'555-896681'
     },
     {
         name:'Per',
         gender: 'M',
         hobby: 'Music',
-        avatar: './images/avatar4.jpg'
+        avatar: './images/avatar4.jpg',
+        cellphone:'555-895564'
     },
     {
         name:'Shania',
         gender: 'F',
         hobby: 'Music',
-        avatar: './images/avatar5.png'
+        avatar: './images/avatar5.png',
+        cellphone:'555-881525'
     },
     {
         name:'Marky',
         gender: 'M',
         hobby: 'Movies',
-        avatar: './images/avatar6.jpg'
+        avatar: './images/avatar6.jpg',
+        cellphone:'555-899833'
     },
     {
         name:'Jaimes',
         gender: 'M',
         hobby: 'Bible',
-        avatar: './images/avatar7.jpg'
+        avatar: './images/avatar7.jpg',
+        cellphone:'555-898746'
     },
     {
         name:'Ellen',
         gender: 'F',
         hobby: 'Bible',
-        avatar: './images/avatar8.svg'
+        avatar: './images/avatar8.svg',
+        cellphone:'555-892568'
     },
     {
         name:'Marty',
         gender: 'M',
         hobby: 'Movies',
-        avatar: './images/avatar9.png'
+        avatar: './images/avatar9.png',
+        cellphone:'555-896985'
     }
 ];
 
@@ -78,8 +87,9 @@ window.addEventListener('load', () => {
                     <img src=" ' + users[i].avatar + ' " />\
                     <div class="person-info">\
                     <div>' + users[i].name + '</div>\
-                    <div>' + users[i].hobby + '</div></div>\
-                    <button>Add as friend</button></div>'
+                    <div>' + users[i].hobby + '</div>\
+                    <div>' + users[i].cellphone + '</div></div>\
+                    <p class="available">Available</p></div>' 
                 }
             }    
         

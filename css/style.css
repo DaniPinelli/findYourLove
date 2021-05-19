@@ -1,5 +1,6 @@
 body{
     font-family: helvetica;
+    background: #ffffff;
 }
 
 #header{
@@ -31,8 +32,10 @@ h1{
     padding: 10px;
     width: 100%;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
     float: left;
-    background-color: #2962ff;
+    background-color: #82b1ff;
 }
 
 .person-row img{
@@ -43,4 +46,32 @@ h1{
 
 .person-row > button {
     float: right;
+}
+
+.available {
+    color: green;
+}
+
+.select{
+    color: blue;
+    font-weight: bold;
+}
+
+.gender{
+    background: #64b5f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.please{
+    color: blue;
+    font-weight: bold;
+}
+
+.foot{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #0039cb;
 }
