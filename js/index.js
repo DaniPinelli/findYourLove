@@ -60,9 +60,8 @@ window.addEventListener('load', () => {
     let search = () => {
 
             let hobbyField = document.getElementById('hobby');
-            let hobby = hobbyField.value;
+            let hobby = hobbyField.value.toLowerCase().trim();
             
-    
             let genderField = document.getElementById('gender');
             let selected = genderField.selectedIndex;
             let gender = genderField.options[selected].value;
@@ -72,16 +71,21 @@ window.addEventListener('load', () => {
             let numUsers = users.length;
     
             for (let i = 0; i < numUsers; i++) {
-                resultsHTML += '<div class="person-row">\
-                <img src=" ' + users[i].avatar + ' " />\
-                <div class="person-info">\
-                <div>' + users[i].name + '</div>\
-                <div>' + users[i].hobby + '</div></div>\
-                <button>Add as friend</button></div>'
+
+            if(gender == users[i].gender) {
+                if(hobby == '' || hobby == users[i].hobby.toLowerCase()){
+                    resultsHTML += '<div class="person-row">\
+                    <img src=" ' + users[i].avatar + ' " />\
+                    <div class="person-info">\
+                    <div>' + users[i].name + '</div>\
+                    <div>' + users[i].hobby + '</div></div>\
+                    <button>Add as friend</button></div>'
+                }
+            }    
         
-    
-            results.innerHTML = resultsHTML;
+                    
         }
+        results.innerHTML = resultsHTML;
     }
   
     let results = document.getElementById('results');
