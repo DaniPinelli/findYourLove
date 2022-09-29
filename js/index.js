@@ -14,18 +14,18 @@ let users = [
         cellphone:'555-895822'
     },
     {
-        name:'Eli',
-        gender: 'F',
-        hobby: 'Bible',
-        avatar: './images/avatar3.webp',
-        cellphone:'555-896681'
-    },
-    {
         name:'Per',
         gender: 'M',
         hobby: 'Music',
         avatar: './images/avatar4.jpg',
         cellphone:'555-895564'
+    },
+    {
+        name:'Eli',
+        gender: 'F',
+        hobby: 'Sports',
+        avatar: './images/avatar3.webp',
+        cellphone:'555-896681'
     },
     {
         name:'Shania',
